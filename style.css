@@ -4,22 +4,30 @@
 }
 
 body {
-  background-color: aliceblue;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='80' height='80' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🙌</text></svg>") 16 0,auto; /*!emojicursor.app*/
   text-align: center;
-  color: navy;
+  color: white;
   margin: auto;
   font-family: water;
+  min-height: 100vh;
 }
 
 h1{
   font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
 }
 
 #myCanvas {
-  background-image: url("https://seaviewinfo.com/wp-content/uploads/2018/07/SeaScape.jpg");
-  background-size: 600px 400px;
-  border-radius: 300px;
-  border: 5px solid white;
+  background-image: url("images (1).jpg");
+    background-size: 600px 400px;
+  border-radius: 0;
+  border: 5px solid rgba(245, 0, 0, 0.9);
 }
 
 
