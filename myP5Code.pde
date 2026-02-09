@@ -2,7 +2,7 @@
 //var img;
 setup = function() {
     size(600, 400);
-       frameRate(3.5)
+       frameRate(4.5)
     //img = loadImage("images (1).jpg");
     
  
